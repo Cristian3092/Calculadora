@@ -25,9 +25,7 @@
     background-color:teal
 }
 .LCD{
-    display: flex;
     width: 450px;
-    overflow: hidden;
     height: 60px;
     margin-top: 10px;
     margin-left: 10px;
@@ -35,11 +33,11 @@
     border: 1px solid black;
     border-radius: 35px;
     position:absolute;
+    overflow: hidden;
     left: 18px;
     background-color: teal;
     font-size: 50px;
     font-family: 'Digital Numbers', sans-serif;
-    text-align: end;
     color: lime;
     
 }
